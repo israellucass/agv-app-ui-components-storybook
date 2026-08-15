@@ -1,0 +1,5 @@
+import{j as r}from"./jsx-runtime-BjG_zV1W.js";const c="_root_1vypx_1",i="_dot_1vypx_12",p="_dot_green_1vypx_20",f="_dot_yellow_1vypx_24",m="_dot_red_1vypx_28",g="_label_1vypx_32",t={root:c,dot:i,dot_green:p,dot_yellow:f,dot_red:m,label:g},u={green:"Bandeira tarifária: verde",yellow:"Bandeira tarifária: amarela",red:"Bandeira tarifária: vermelha"};function x(e){return u[e]}function y({flag:e,label:l,"data-testid":d}){const _=l??x(e);return r.jsxs("span",{className:t.root,"data-testid":d,role:"status",children:[r.jsx("span",{className:`${t.dot} ${t[`dot_${e}`]}`,"aria-hidden":!0}),r.jsx("span",{className:t.label,children:_})]})}const b={title:"Components/TariffFlag",component:y},a={args:{flag:"green"}};var o,s,n;a.parameters={...a.parameters,docs:{...(o=a.parameters)==null?void 0:o.docs,source:{originalSource:`{
+  args: {
+    flag: "green"
+  }
+}`,...(n=(s=a.parameters)==null?void 0:s.docs)==null?void 0:n.source}}};const j=["Default"];export{a as Default,j as __namedExportsOrder,b as default};

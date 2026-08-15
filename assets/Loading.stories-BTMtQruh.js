@@ -1,0 +1,3 @@
+import{j as r}from"./jsx-runtime-BjG_zV1W.js";const n="_overlay_tmxbi_1",i="_spinner_tmxbi_14",a={overlay:n,spinner:i};function l(){return r.jsx("div",{className:a.overlay,role:"status","aria-live":"polite","aria-label":"Carregando",children:r.jsx("div",{className:a.spinner,"aria-hidden":"true"})})}const m={title:"Components/Loading",component:l},e={args:{}};var s,o,t;e.parameters={...e.parameters,docs:{...(s=e.parameters)==null?void 0:s.docs,source:{originalSource:`{
+  args: {}
+}`,...(t=(o=e.parameters)==null?void 0:o.docs)==null?void 0:t.source}}};const p=["Default"];export{e as Default,p as __namedExportsOrder,m as default};
