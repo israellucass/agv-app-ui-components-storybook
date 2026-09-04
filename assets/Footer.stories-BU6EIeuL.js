@@ -1,0 +1,5 @@
+import{j as o}from"./jsx-runtime-BjG_zV1W.js";import{l as c}from"./logo-4d3YAuGj.js";const i="_footer_1wrpx_2",l="_footerInner_1wrpx_15",p="_logo_1wrpx_28",d="_copyright_1wrpx_37",r={footer:i,footerInner:l,logo:p,copyright:d};function m(){const n=new Date().getFullYear();return o.jsx("footer",{className:r.footer,children:o.jsxs("div",{className:r.footerInner,children:[o.jsx("img",{src:c,alt:"Equatorial Energia",className:r.logo}),o.jsxs("p",{className:r.copyright,children:["Equatorial © ",n,". Todos os direitos reservados."]})]})})}const u={title:"Components/Footer",component:m},e={args:{copyrightText:"Equatorial © 2026. Todos os direitos reservados."}};var t,s,a;e.parameters={...e.parameters,docs:{...(t=e.parameters)==null?void 0:t.docs,source:{originalSource:`{
+  args: {
+    copyrightText: "Equatorial © 2026. Todos os direitos reservados."
+  }
+}`,...(a=(s=e.parameters)==null?void 0:s.docs)==null?void 0:a.source}}};const x=["Default"];export{e as Default,x as __namedExportsOrder,u as default};
